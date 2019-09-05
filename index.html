@@ -236,17 +236,15 @@
                         <div class="form_grid">
                             <div class="left_part">
                                 <label for="name" class="b">Name:</label>
-                                <input type="text" name="namename" id="Name" class="input b" input pattern=".{4,50}"
+                                <input type="text" name="name" id="Name" class="input b" input pattern=".{4,50}"
                                     placeholder="Name" required /><br>
                                 <label for="email" class="b">E-mail:</label>
                                 <input type="email" name="email" class="input b" id="email" required />
                             </div>
                             <div class="right_part">
                                 <label for="title" class="b">Title:</label><br>
-                                <input type="radio" name="title" value="Mr" checked>Mr<br>
-                                <input type="radio" name="title" value="Mrs">Mrs<br>
-                                <input type="radio" name="title" value="Ms">Ms<br>
-                                <input type="radio" name="title" value="Other">Other
+                                <textarea name="title" id="textArea" cols="5" rows="10" placeholder="title"
+                                    required></textarea>
                             </div>
                             <div>
                                 <label for="text_field" class="b">Message:</label>
